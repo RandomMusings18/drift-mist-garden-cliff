@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+
+  --color-bg: #10140e;
+  --color-raised: #171d13;
+  --color-surface: #1d2518;
+  --color-fg: #e7efe0;
+  --color-muted: #9aab90;
+  --color-faint: #6e7f66;
+  --color-line: #313c29;
+  --color-gold: #e2b45a;
+  --color-ink: #10140e;
+  --color-core: #c6e2a4;
+
+  --color-rarity-common: #d7ddd0;
+  --color-rarity-uncommon: #73c46d;
+  --color-rarity-rare: #6eb0ea;
+  --color-rarity-epic: #c08ae8;
+  --color-rarity-legendary: #e2b45a;
+
+  --radius-card: 0.9rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+
+  select,
+  input {
+    color-scheme: dark;
+  }
+
+  ::selection {
+    background: var(--color-gold);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

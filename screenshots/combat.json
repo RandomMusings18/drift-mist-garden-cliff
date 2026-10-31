@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/skill/combat",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Shard Atlas",
+      "hasCanvas": false,
+      "bodyTextLen": 20238,
+      "bodyTextHash": "63078414a16501c691c5b62554751dd010792fc4ef7a72372963b470b6f89114",
+      "bodyTextPrefix": "Shard Atlas All shards List 0 Mining Combat Foraging Farming Fis",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/combat.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Shard Atlas",
+      "hasCanvas": false,
+      "bodyTextLen": 20238,
+      "bodyTextHash": "63078414a16501c691c5b62554751dd010792fc4ef7a72372963b470b6f89114",
+      "bodyTextPrefix": "Shard Atlas All shards List 0 Mining Combat Foraging Farming Fis",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/combat-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/combat.json"
+}

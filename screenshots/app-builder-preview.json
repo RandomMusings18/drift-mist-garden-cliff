@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Shard Atlas",
+      "hasCanvas": false,
+      "bodyTextLen": 2756,
+      "bodyTextHash": "bc5d9e6ec7cf188e5556c3ce5bb92470c2cfcd350007ead1ea32b0bc5cd2d923",
+      "bodyTextPrefix": "Shard Atlas All shards List 0 Mining Combat Foraging Farming Fis",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Shard Atlas",
+      "hasCanvas": false,
+      "bodyTextLen": 2756,
+      "bodyTextHash": "bc5d9e6ec7cf188e5556c3ce5bb92470c2cfcd350007ead1ea32b0bc5cd2d923",
+      "bodyTextPrefix": "Shard Atlas All shards List 0 Mining Combat Foraging Farming Fis",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
